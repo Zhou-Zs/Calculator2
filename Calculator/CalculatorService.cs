@@ -26,7 +26,7 @@ namespace Calculator
             {
                 var expchar = expStr.Substring(i, 1);
 
-                // 替换字母为所赋的值
+                // 替换字母的值
                 for (int l = 1; l < strList.Count; l++)
                 {
                     var oValue = Regex.Split(strList[l], "=");
